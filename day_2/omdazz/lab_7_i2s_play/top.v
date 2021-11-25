@@ -89,6 +89,8 @@ module i2s
     /*
      * TODO: Exercise 1:
      * Decrease sound level.
+     * TODO: Exercise 1.1:
+     * Bring the sound level control to the key.
      */
     assign value = lut_y;
 
@@ -124,6 +126,8 @@ module top
     /*
      * TODO: Exercise 2:
      * Change (increase/decrease) music speed.
+     * TODO: Exercise 2.1:
+     * Bring the playback speed control to the key.
      */
     reg [23:0] clk_div;
 
